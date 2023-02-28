@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js"integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "ui_theme.css">
+        <title>Wind Power</title>
+        <script>
+          $( function() {
+            $( ".accordion" ).accordion({
+              event: "click",
+              heightStyle: "content",
+              collapsible: false
+            });
+          } );
+          </script>
+    </head>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href=" ad.html">Our sponsor</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id = "tech" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Technologies
+              </a>
+              <ul class="dropdown-menu">
+                <li class = "dropList"><a class="dropdown-item" href="1.html">Nuclear</a></li>
+                <li class = "dropList"><a class="dropdown-item" href="2.html">Wind</a></li>
+                <li class = "dropList"><a class="dropdown-item" href="3.html">Hydroelectric</a></li>
+                <li class = "dropList"><a class="dropdown-item" href="4.html">Solar</a></li>
+                <li class = "dropList"><a class="dropdown-item" href="5.html">Geothermal</a></li>
+              </ul>
+            </li>
+            <li class = "nav-item">
+              <div id = "main">Wind Power is exactly what it sound like. Instead of burning fuels, you simply set up a turbine that can be turned by the wind to generate energy.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <body>
+    <div id = "more">
+      <idea href = "https://www.energy.gov/science-innovation/energy-sources/renewable-energy/wind" subject = "Wind Power"></idea>
+    </div>
+    <div class = "dialog" title = "Offshore Wind" style = "display:none">In order to get as much wind energy as feasible, New York State has begun commisioning the construction of wind turbines out at sea, investing millions of dollars in these projects.</div>
+    <div class = "dialog" title = "Most Prominent Locations" style = "display:none">Texas actually generates more than double the wind energy of any other state. Iowa and Oklahoma also make a lot of it, but they're still nowhere near Texas in that regard.</div>
+    <div class = "dialog" title = "Really Big" style = "display:none">How big a turbine is can actually be pretty important; the turbines generate more energy with faster winds, so reaching windier altitudes is more important than you'd think.</div>
+      <div class="accordion">
+        <h6>Pros</h6>
+        <div>
+          <p>
+          Wind power is really cheap, at around 1.5-4 cents per Kilowatt hour, even compared to solar, which just recently reached 6 cents per kilowatt hour. It's efficient enough that it's already responsible for a bit over 9% of US energy production as of 2021.
+        </p>
+        </div>
+        <h6>Cons</h6>
+        <div>
+          <p>
+          "Wind farms", as they're called, must often be constructed in remote locations. Local residents may also have concerns over the noise caused by turbine blades and the 
+          </p>
+        </div>
+      </div>
+    </body>
+    <footer>New_Energy's source code is the intellectual property of Ariel Cann. Unauthorized copying of this source code will be prosecuted to the fullest extent of the law.</footer>
+    <script src = "app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <script src = "vue.js"></script>
+    <link rel = "stylesheet" href = "style.css">
+</html>

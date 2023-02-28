@@ -1,0 +1,91 @@
+div{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url('assets/background.jfif');
+    position:relative;
+    height: 98vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.navbar-brand{
+    height: 10vh;
+    width: 10vw;
+    background-image: url("assets/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#carousel{
+    position:absolute;
+    left: 80vw;
+    top: 13vh;
+    display: flex;
+    width: 20vw;
+    margin-right: 0px;
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 4px 4px darkorange;
+}
+.card-img-top{
+    width: max-content;
+    height: 20vh;
+}
+.navbar{
+    width: 100vw;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    position: fixed;
+    bottom: 0vh;
+    background-color: whitesmoke;
+    height: min-content;
+    width: 100vw;
+    text-align: center;
+}
+#more{
+    position: relative;
+    top: 0vh;
+}
+#main{
+    background-color: lightgreen;
+    box-shadow: 0px 2px 2px 2px yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0vh;
+    right: 3vw;
+    border: 1px black solid;
+    justify-content: center;
+    height: min-content;
+    width: 55vw;
+}
+.accordion{
+    position: absolute;
+    bottom: 3vh;
+    background-color: aliceblue;  
+    width: 100vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40vh;
+    left: 40vw;
+    border: none;
+}
+.fill{
+    padding-top: 6vh;
+    border: none;
+    display: inline;
+    height: min-content;
+    width: min-content;
+}
+#datepicker{
+    border: none;
+    width: min-content;
+}
+#ad{
+    background-color: white;
+}
